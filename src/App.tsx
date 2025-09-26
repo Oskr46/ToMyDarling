@@ -14,7 +14,10 @@ function App() {
             ésta es mi manera de, bueno, demostrarte lo mucho que te amo. Llevo semanas haciendo ésta página
             y pues, espero que todo lo que haré cumpla tus expectativas, y bueno, que te sientas muy
             querida como siempre quiero que te sientas conmigo.
-
+          </p>
+        </div>
+        <div className='text'>
+          <p>
             En fin Serenita, no sé ni por donde empezar, yo soy una persona muy organizada con todo
             y que hayas llegado a mi vida no sé ni siquiera como pasó, todo fué tan rápido y apresurado,
             que no sé, tal vez eso me gustó en cierto modo, siempre tuvimos las cosas claras y siempre
