@@ -1,7 +1,27 @@
+import { useState } from 'react';
 import './App.css'
 
 function App() {
+  const [ans, setAns] = useState(0);
 
+  function handleResponse(){
+    switch(ans){
+      case(0): return(
+      <div className='response'>
+        <h3> Responde :)</h3>
+      </div>)
+
+      case(1): return(
+      <div className='response'>
+        <h3> Siipi, te amo mi amor, Gracias ♥</h3>
+      </div>;)
+
+      case(2): return(
+      <div className='response'>
+        <h3> >:( no se acepta esa respuesta, loca</h3>
+      </div>;)
+    }
+  }
   return (
     <>
       <div className='mainText'>
@@ -65,7 +85,17 @@ function App() {
         <div className='hiText'>
           <h3>♥ Te amo demasiado Serenita ♥</h3>
           <h4>No sé si ya te lo dije, pero...</h4>
+        </div>
+
+        <div className='proposal'>
           <h2>♥ ¿Quieres ser mi novia? ♥</h2>
+          <div className='decision'>
+            <button className='button-yes' onClick={() => {setAns(1)}}>Sí, mi amor </button>
+            <button className='button-no'  onClick={() => {setAns(2)}}>No, Negro Mmgvo</button>
+          </div>
+          {handleResponse()}
+
+
         </div>
       </div>
     </>
