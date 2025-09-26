@@ -47,7 +47,7 @@ function App() {
 
   const handleNoClick = () => {
     setNoClicks(noClicks + 1);
-    if (noClicks >= 2){setAns(2)};
+    if (noClicks >= 10){setAns(2)};
   }
 
   return (
@@ -131,7 +131,7 @@ function App() {
             <div className='decision'>
               <button className='button-yes' onClick={() => {setAns(1)}}>Sí, Mi Amor </button>
               <button className='button-no'  onClick={handleNoClick}>
-                {noClicks > 2 ? "Que mala eres, segura? :(" : "No, Maldito"}
+                {noClicks > 1 ? "Que mala eres, segura? :(" : "No, Maldito"}
               </button>
             </div>
             }
