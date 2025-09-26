@@ -14,12 +14,12 @@ function App() {
       case(1): return(
       <div className='response'>
         <h3> Siipi, te amo mi amor, Gracias ♥</h3>
-      </div>;)
+      </div>)
 
       case(2): return(
       <div className='response'>
         <h3> >:( no se acepta esa respuesta, loca</h3>
-      </div>;)
+      </div>)
     }
   }
   return (
