@@ -8,7 +8,7 @@ function App() {
     switch(ans){
       case(0): return(
       <div className='response'>
-        <h3> Responde :)</h3>
+        <h3> Responde c:</h3>
       </div>)
 
       case(1): return(
@@ -18,7 +18,7 @@ function App() {
 
       case(2): return(
       <div className='response'>
-        <h3> >:( no se acepta esa respuesta, loca</h3>
+        <h3> :c no se acepta esa respuesta, loca</h3>
       </div>)
     }
   }
