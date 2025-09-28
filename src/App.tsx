@@ -1,17 +1,17 @@
-import { useState } from 'react';
+//import { useState } from 'react';
 import Serenita1 from '../public/darling/1.jpg'
 import Serenita2 from '../public/darling/2.jpg'
 import Serenita3 from '../public/darling/3.jpg'
 import Serenita4 from '../public/darling/4.png'
-import Serenita5 from '../public/darling/5.jpg'
-import Serenita6 from '../public/darling/6.jpg'
+//import Serenita5 from '../public/darling/5.jpg'
+// import Serenita6 from '../public/darling/6.jpg'
 import './App.css'
 
 function App() {
-  const [ans, setAns] = useState(0);
-  const [noClicks, setNoClicks] = useState(0);
+  //const [ans, setAns] = useState(0);
+  //const [noClicks, setNoClicks] = useState(0);
 
-  function handleResponse(){
+ /* function handleResponse(){
     switch(ans){
       case(0): return(
       <div className='response'>
@@ -45,11 +45,12 @@ function App() {
     }
   }
 
-  const handleNoClick = () => {
+  */
+ {/* const handleNoClick = () => {
     setNoClicks(noClicks + 1);
     if (noClicks >= 10){setAns(2)};
   }
-
+*/}
   return (
     <>
     <div className='box'>
@@ -112,7 +113,7 @@ function App() {
             <img src={Serenita4} width={180} height={180} alt="Mi musa" />
           </div>
         </div>
-
+{/*
         <div className='hiText'>
           <h3>♥ Te amo demasiado Serenita ♥</h3>
           <h4>No sé si ya te lo dije, pero...</h4>
@@ -138,6 +139,7 @@ function App() {
           
           {handleResponse()}
         </div>
+*/}
       </div>
     </div>
     </>
