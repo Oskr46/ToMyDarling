@@ -1,5 +1,6 @@
 //import { useState } from 'react';
-import DailyGif from "../public/darling/dailyGif.gif"
+import DailyGif from "/darling/dailyGif.gif"
+import DailyGif2 from "/darling/dailyGif2.gif"
 import './App.css'
 
 function App() {
@@ -55,87 +56,49 @@ function App() {
       <div className='content'>
         <div className='hiText'>
           <h3>
-            ♥ Hola Serenita linda ♥, espero que hayas dormido bieen. Te amo Corazón, que tengas un buen día.
+            ♥ Hola Serenita linda ♥, buenos días, lo siento por tardar. Que tengas un buen día.
           </h3>
 
-          <p>
-            Cada día me enamoro más de ti, amor mío, me gustas muchísimo. Te amo como no tienes idea. De verdad que si no estás
-            me aburro muchísimo, ya no paro de pensar en tí todo el día.
-          </p>
+          <h4>
+            Lo siento, desperté con mucho dolor de cabeza y me quedé dormido :c, te amo mucho Serena.
+          </h4>
 
           <p>
-            Estaba escuchando música y bueno, tengo varias que me recuerdan a tí. Espero que te gusten amor mío, así como tu a mí ♥
+            Puess, no sé que decirte, muchas gracias por cuidarme y estar pendiente de mí, te amo muchisimo Serenita,
+            creo que nunca encontraré las palabras adecuadas para expresar lo que siento, realmente. 
           </p>
-          <ul>
-          <li>
-            <h4>
-              Bonita - Cabas. <br></br> <a href="https://youtu.be/zLlmvol7g4k?si=qW-kCaH1v6NEI6CT">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>
-            <h4>
-              Amo Las Estrellas - Zapato3 <br></br> <a href="https://youtu.be/Pd79SSm0X1Y?si=M7Ou4v9dRsjcDHb1">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>
-            <h4>
-              La Que Me Gusta - Los Amigos Invisibles <br></br> <a href="https://youtu.be/rigubwkGxdw?si=z49NxHXF4D16RfEx">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>
-            <h4>
-              Flamingo - La Vida Boheme <br></br> <a href="https://youtu.be/xoWRkd3oGcs?si=Uk5APLfjAev2Yk_C">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>
-            <h4>
-            Caraluna - Bacilos <br></br> <a href="https://youtu.be/D3JKXJpPhM0?si=OpMx7cxlfdA9v_Uw">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>
-            <h4>
-              De mi, de mi, de mi - Lasso <br></br> <a href="https://youtu.be/Q7eLPn9J-2o?si=ZMbYxCrAgwpywCq0">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>
-            <h4>
-              Te veo - Lasso <br></br> <a href="https://youtu.be/Vqq6tO3Xeko?si=1kQWPyzaf16Abq7P">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>
-            <h4>
-              Obsesionario en La Mayor - Tan Bionica <br></br> <a href="https://youtu.be/V8hIlJt0lDY?si=x1RbjM07_54abWn3">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>         
-            <h4>
-              Loca - Tan Bionica <br></br> <a href="https://youtu.be/rehqofVh7-Y?si=zLTHfafRegbfzBgd">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>
-          <li>
-            <h4>
-              Tu Ternura - Gualberto Ibarreto <br></br> <a href="https://youtu.be/EAB1hCmxq4U?si=XA4KY3Fz8psUIP14">Presiona aquí, Princesa ♥</a>
-            </h4>
-          </li>
-      <br></br>   
-          </ul>
+
+          <div className="proposal">
+            <p>
+              Te amo demasiado Serenita, jamás me voy a cansar de decirlo, o decirtelo frente a quien sea,
+              no quiero ocultarte ni quiero que te sientas de esa manera, quiero que siempre seas para mí
+              así como yo seré sólo para tí. Te amo.
+            </p>
+            <p>
+              Estaba pensando en dejarte algo para que no te aburras mientras voy a la uni, y bueno, la verdad no sé. Lo Primero que pensé
+              es dejarte un video, como no te gusta nada de miedo o cosas paranormales y así, te dejé el video del stream
+              que estaba viendo hace tiempo. No es para que te lo veas todo de una vez, puedes ver un pedacito y así, es bastante largo.
+              Espero lo disfrutes como yo. Te amo serenita
+            </p>
+            <h3>
+              Una Noche de Charla mientras mi amigo Andrés me vacía la nevera.
+            </h3>
+            <a href="https://youtu.be/qgWSrD9fUY4?si=BSVDrWZNoS0p_sB5">Presiona aquí, amor</a>
+          </div>
 
           <h3>
-            Espero que te gusten princesa linda. Te amo ♥
+            Espero que te guste Serenita linda. Te amo ♥
           </h3>
           <h3>♥ Que pases un bonito día. ♥</h3>
           
-          <div className='image-container' data-caption="♥♥♥">
-            <img src={DailyGif} width={180} height={180} alt="Mi amor precioso" />
+          <div>
+            <div className='image-container' data-caption="♥♥♥">
+              <img src={DailyGif} width={180} height={180} alt="Mi amor precioso" />
+            </div>
+
+            <div className='image-container' data-caption="♥♥♥">
+              <img src={DailyGif2} width={180} height={180} alt="Mi amor precioso" />
+            </div>
           </div>
 
         </div>
