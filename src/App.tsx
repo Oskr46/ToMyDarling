@@ -79,6 +79,11 @@ function App() {
               Lo Eres Todo - Guaco
             </h3>
             <a href="https://youtu.be/9K-52HzMJgA?si=FUq2FE3EmP72dSli">Presiona aquí, amor</a>
+
+            <h3>
+            Eres - Café Tacvba
+            </h3>
+            <a href="https://youtu.be/RiDMRwR-GQY?si=uz8dfRwBcioE5f2t">Presiona aquí, amor</a>
           </div>
 
           <h3>
