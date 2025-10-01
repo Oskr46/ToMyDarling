@@ -56,40 +56,35 @@ function App() {
       <div className='content'>
         <div className='hiText'>
           <h3>
-            ♥ Hola Serenita linda ♥, buenos días, lo siento por tardar. Que tengas un buen día.
+            ♥ Hola Serenita linda ♥, buenas noches, lo siento por tardar. Te amo demasiado amor mío.
           </h3>
 
           <h4>
-            Lo siento, desperté con mucho dolor de cabeza y me quedé dormido :c, te amo mucho Serena.
+            Te amo mucho Serena, Gracias por pasar el día conmigo. Me encanta pasar tiempo contigo y estar
+            pegado a tí como un pegoste.
           </h4>
 
           <p>
-            Puess, no sé que decirte, muchas gracias por cuidarme y estar pendiente de mí, te amo muchisimo Serenita,
-            creo que nunca encontraré las palabras adecuadas para expresar lo que siento, realmente. 
+              Gracias por estos dos días lindos ♥, te amo demasiadooo. 
           </p>
 
           <div className="proposal">
             <p>
-              Te amo demasiado Serenita, jamás me voy a cansar de decirlo, o decirtelo frente a quien sea,
-              no quiero ocultarte ni quiero que te sientas de esa manera, quiero que siempre seas para mí
-              así como yo seré sólo para tí. Te amo.
+              Eres lo mejor que me ha pasado en la vida amor mío. Gracias por aparecer y por tratarme bien, te amo demasiado corazóncito
             </p>
             <p>
-              Estaba pensando en dejarte algo para que no te aburras mientras voy a la uni, y bueno, la verdad no sé. Lo Primero que pensé
-              es dejarte un video, como no te gusta nada de miedo o cosas paranormales y así, te dejé el video del stream
-              que estaba viendo hace tiempo. No es para que te lo veas todo de una vez, puedes ver un pedacito y así, es bastante largo.
-              Espero lo disfrutes como yo. Te amo serenita
+              Pues, siguiendo un poco con dejarte algo para que escuches, hoy sólo te dejaré una cancioncita, probablemente ya la has escuchado.
             </p>
             <h3>
-              Una Noche de Charla mientras mi amigo Andrés me vacía la nevera.
+              Lo Eres Todo - Guaco
             </h3>
-            <a href="https://youtu.be/qgWSrD9fUY4?si=BSVDrWZNoS0p_sB5">Presiona aquí, amor</a>
+            <a href="https://youtu.be/9K-52HzMJgA?si=FUq2FE3EmP72dSli">Presiona aquí, amor</a>
           </div>
 
           <h3>
-            Espero que te guste Serenita linda. Te amo ♥
+            Espero que te guste mi Amor. Te amo ♥
           </h3>
-          <h3>♥ Que pases un bonito día. ♥</h3>
+          <h3>♥ Que pases buena noche. ♥</h3>
           
           <div>
             <div className='image-container' data-caption="♥♥♥">
