@@ -1,6 +1,9 @@
 //import { useState } from 'react';
 import DailyGif from "/darling/dailyGif.gif"
 import DailyGif2 from "/darling/dailyGif2.gif"
+import Us1 from "/darling/Us1.jpg"
+import Us2 from "/darling/Us2.jpeg"
+import Us3 from "/darling/Us3.jpg"
 import './App.css'
 
 function App() {
@@ -56,41 +59,48 @@ function App() {
       <div className='content'>
         <div className='hiText'>
           <h3>
-            ♥ Hola Serenita linda ♥, buenas noches, te extrañé muchísimo. Gracias por Esperar ♥.
+            ♥ Hola mi Amor ♥, te amo muchísimo. Espero que te sientas mejor ♥.
           </h3>
 
           <h4>
-            Extrañaba ver tu carita linda mi reina, gracias por esperarme, te amo demasiado mi bebé
+            No tienes idea de lo mucho que te extraño mi malcriada.
           </h4>
 
           <p>
-              Siempre vas a ser mi bebé consentida, recuérdalo siempre mi bebé ♥. 
+              No sé genuinamente que me hiciste, todas las mañanas despierto pensando en tí, revisando mi teléfono
+              enviándote mensajes de lo que voy haciendo, pensando en que puedes estar haciendo, viendo cosas
+              para tí. No tienes idea de lo mucho que te amo y de lo mucho que has impactado en mi vida, Serena.
+
+              Te amo demasiado amor mío, por favor quiéreme y cuidame toda la vida, no quiero que te separes de mí jamás, quiero
+              que tú seas mi esposa y la madre de mis <b><u>3 hijos</u></b>. Te amo serena, siempre lo haré, más que ayer y menos que mañana.
           </p>
 
           <div className="proposal">
-            <p>
-              Aquí tienes unas canciones para tí y un videito de comedia, para que te rías un ratito ♥.
-            </p>
             <h3>
-              Un Poco Perdido - Tan Bionica
+              Hoy no tengo videos para tí amorcito :c, lo siento, el internet no me ha dejado hacer nada.
             </h3>
-            <a href="https://youtu.be/1iqAB5dATVk?si=1eELWapAKWi2ZuTz">Presiona aquí, amor</a>
+          </div>
 
-            <h3>
-            Que el Desayuno Espere - Caramelos de Cianuro
-            </h3>
-            <a href="https://youtu.be/8AQn5GQ3anc?si=ljA_VT2V-kQeuAqe">Presiona aquí, amor</a>
+          <div className="proposal">
+            <h2>♥ Us ♥</h2>
+            <h4>(Nosotros en francés, mi idioma natal)</h4>
+              <div className="image-container" data-caption="Mi bebé">
+                <img width={180} height={180} src={Us1} alt="" />
+              </div>
 
-            <h3>
-            En el show de GH - Profesor Briceño
-            </h3>
-            <a href="https://youtu.be/f3pTsw0kJjI?si=3AA7d3f6PSwMhvzR">Presiona aquí, amor</a>
+              <div className="image-container" data-caption="Lo más lindo">
+                <img width={180} height={180} src={Us2} alt="" />
+              </div>
+
+              <div className="image-container" data-caption="Niña de mis ojos" >
+                <img width={180} height={180} src={Us3} alt="" />
+              </div>
           </div>
 
           <h3>
-            Espero que te gusten mi Amor. Te amo ♥
+            Espero que te sientas mejor más tarde. Te amo ♥
           </h3>
-          <h3>♥ Que pases buena noche. Lo siento por tardar ♥</h3>
+          <h3>♥ Pasa un buen día corazón. Te amo, cuídate mucho, no hagas locuras. ♥</h3>
           
           <div>
             <div className='image-container' data-caption="♥♥♥">
