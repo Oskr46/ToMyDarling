@@ -58,11 +58,11 @@ function App() {
       </div>
       <div className='content'>
         <div className='hiText'>
-          <h3>
-            ♥ Hola mi Amor ♥, te amo muchísimo. Espero que te sientas mejor ♥.
-          </h3>
-
+            
+          <h2>📌♥ Mensajito para mi princesa ♥📌</h2>
+          
           <h4>
+            ♥ Hola mi Amor ♥, te amo muchísimo. Espero que te sientas mejor ♥.
             No tienes idea de lo mucho que te extraño mi malcriada.
           </h4>
 
@@ -76,13 +76,16 @@ function App() {
           </p>
 
           <div className="proposal">
-            <h3>
+            
+            <h2>📌♥ Cositas para tí ♥📌</h2>
+            
+            <h4>
               Hoy no tengo videos para tí amorcito :c, lo siento, el internet no me ha dejado hacer nada.
-            </h3>
+            </h4>
           </div>
 
           <div className="proposal">
-            <h2>♥ Us ♥</h2>
+            <h2>📌♥ Us ♥📌</h2>
             <h4>(Nosotros en francés, mi idioma natal)</h4>
               <div className="image-container" data-caption="Mi bebé">
                 <img width={180} height={180} src={Us1} alt="" />
@@ -97,11 +100,17 @@ function App() {
               </div>
           </div>
 
-          <h3>
+          <br/>
+
+          <h2>📌♥ Fin del contenido ♥📌</h2>
+
+          <h4>
             Espero que te sientas mejor más tarde. Te amo ♥
-          </h3>
-          <h3>♥ Pasa un buen día corazón. Te amo, cuídate mucho, no hagas locuras. ♥</h3>
+          </h4>
+          <h4>♥ Pasa un buen día corazón. Te amo, cuídate mucho, no hagas locuras. ♥</h4>
           
+          <br />
+
           <div>
             <div className='image-container' data-caption="♥♥♥">
               <img src={DailyGif} width={180} height={180} alt="Mi amor precioso" />
