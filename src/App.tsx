@@ -56,40 +56,41 @@ function App() {
       <div className='content'>
         <div className='hiText'>
           <h3>
-            ♥ Hola Serenita linda ♥, buenas noches, lo siento por tardar. Te amo demasiado amor mío.
+            ♥ Hola Serenita linda ♥, buenas noches, te extrañé muchísimo. Gracias por Esperar ♥.
           </h3>
 
           <h4>
-            Te amo mucho Serena, Gracias por pasar el día conmigo. Me encanta pasar tiempo contigo y estar
-            pegado a tí como un pegoste.
+            Extrañaba ver tu carita linda mi reina, gracias por esperarme, te amo demasiado mi bebé
           </h4>
 
           <p>
-              Gracias por estos dos días lindos ♥, te amo demasiadooo. 
+              Siempre vas a ser mi bebé consentida, recuérdalo siempre mi bebé ♥. 
           </p>
 
           <div className="proposal">
             <p>
-              Eres lo mejor que me ha pasado en la vida amor mío. Gracias por aparecer y por tratarme bien, te amo demasiado corazóncito
-            </p>
-            <p>
-              Pues, siguiendo un poco con dejarte algo para que escuches, hoy sólo te dejaré una cancioncita, probablemente ya la has escuchado.
+              Aquí tienes unas canciones para tí y un videito de comedia, para que te rías un ratito ♥.
             </p>
             <h3>
-              Lo Eres Todo - Guaco
+              Un Poco Perdido - Tan Bionica
             </h3>
-            <a href="https://youtu.be/9K-52HzMJgA?si=FUq2FE3EmP72dSli">Presiona aquí, amor</a>
+            <a href="https://youtu.be/1iqAB5dATVk?si=1eELWapAKWi2ZuTz">Presiona aquí, amor</a>
 
             <h3>
-            Eres - Café Tacvba
+            Que el Desayuno Espere - Caramelos de Cianuro
             </h3>
-            <a href="https://youtu.be/RiDMRwR-GQY?si=uz8dfRwBcioE5f2t">Presiona aquí, amor</a>
+            <a href="https://youtu.be/8AQn5GQ3anc?si=ljA_VT2V-kQeuAqe">Presiona aquí, amor</a>
+
+            <h3>
+            En el show de GH - Profesor Briceño
+            </h3>
+            <a href="https://youtu.be/f3pTsw0kJjI?si=3AA7d3f6PSwMhvzR">Presiona aquí, amor</a>
           </div>
 
           <h3>
-            Espero que te guste mi Amor. Te amo ♥
+            Espero que te gusten mi Amor. Te amo ♥
           </h3>
-          <h3>♥ Que pases buena noche. ♥</h3>
+          <h3>♥ Que pases buena noche. Lo siento por tardar ♥</h3>
           
           <div>
             <div className='image-container' data-caption="♥♥♥">
