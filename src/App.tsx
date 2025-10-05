@@ -62,31 +62,79 @@ function App() {
           <h2>📌♥ Mensajito para mi princesa ♥📌</h2>
           
           <h4>
-            ♥ Hola mi Amor ♥, te amo muchísimo. Espero que te sientas mejor ♥.
-            No tienes idea de lo mucho que te extraño mi malcriada.
+            ♥ Hola serenita ♥, te amo muchote. Gracias por esperar. Te extraaaño
           </h4>
 
           <p>
-              No sé genuinamente que me hiciste, todas las mañanas despierto pensando en tí, revisando mi teléfono
-              enviándote mensajes de lo que voy haciendo, pensando en que puedes estar haciendo, viendo cosas
-              para tí. No tienes idea de lo mucho que te amo y de lo mucho que has impactado en mi vida, Serena.
-
-              Te amo demasiado amor mío, por favor quiéreme y cuidame toda la vida, no quiero que te separes de mí jamás, quiero
-              que tú seas mi esposa y la madre de mis <b><u>3 hijos</u></b>. Te amo serena, siempre lo haré, más que ayer y menos que mañana.
+            Bueno mi amor, te amo mucho mucho, te extraño demasiado, extraaaaño tus cachetes lindos
+            eres lo mejor que me ha pasado serenita, te amo demás, espero que te guste lo que te dejo hoy
+            te amo mucho. Espero que te sientas mejor mi bebé.
           </p>
 
           <div className="proposal">
             
             <h2>📌♥ Cositas para tí ♥📌</h2>
             
+            <h3>
+              📹♥ Videos ♥📹
+            </h3>
+
+            <p>
+              Pues estuve buscando algunos videos para que mires, aquí hay uno de illojuan y uno
+              de comedia de Les Luthiers, son un grupo de comediantes que hacen comedia musical,
+              generalmente es humor inteligente. El otro es un video de juanillo, espero que te gusten
+              ♥
+            </p>
+
             <h4>
-              Hoy no tengo videos para tí amorcito :c, lo siento, el internet no me ha dejado hacer nada.
+              Les Luthiers: Manuel Darío 
             </h4>
+            <a href="https://www.youtube.com/watch?v=9iW2Cbw4Afk&list=RD9iW2Cbw4Afk&start_radio=1">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              CHUPITOS CHALLENGE 3 🍋 
+            </h4>
+            <a href="https://www.youtube.com/watch?v=us7zI_8qKE8&t=3s">
+              Presiona aquí princesa ♥
+            </a>
+
+            <br /> <br />
+
+            <h3>
+              ♥ Canciones ♥
+            </h3>
+
+            <p>
+              Y pues estuve buscando canciones para tí, y aquí tienes algunas ♥
+            </p>
+
+            <h4>
+              Yo sin tí no valgo nada - C4 Trío & Rafael "Pollo" Brito
+            </h4>
+            <a href="https://youtu.be/LaDQ-sdKnuM?si=SxUN6muUn7P8WSO2">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              Ladrón de tu amor - Gualberto Ibarreto
+            </h4>
+            <a href="https://youtu.be/NjIurL4Gqro?si=mO9jVXfz_vwnARBE">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              Don - Miranda!
+            </h4>
+            <a href="https://youtu.be/eap0G9ldKc0?si=MY0UoemV7_ya55CA">
+              Presiona aquí princesa ♥
+            </a>
+
           </div>
 
           <div className="proposal">
             <h2>📌♥ Us ♥📌</h2>
-            <h4>(Nosotros en francés, mi idioma natal)</h4>
               <div className="image-container" data-caption="Mi bebé">
                 <img width={180} height={180} src={Us1} alt="" />
               </div>
