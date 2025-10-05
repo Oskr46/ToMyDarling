@@ -131,6 +131,8 @@ function App() {
               Presiona aquí princesa ♥
             </a>
 
+            <br />
+
           </div>
 
           <div className="proposal">
@@ -153,9 +155,9 @@ function App() {
           <h2>📌♥ Fin del contenido ♥📌</h2>
 
           <h4>
-            Espero que te sientas mejor más tarde. Te amo ♥
+            Espero que te haya gustado todo mi bebé, cuídate mucho
           </h4>
-          <h4>♥ Pasa un buen día corazón. Te amo, cuídate mucho, no hagas locuras. ♥</h4>
+          <h4>♥ Que pases buena noche corazón ♥</h4>
           
           <br />
 
