@@ -1,5 +1,5 @@
 //import { useState } from 'react';
-import DailyGif from "/darling/dailyGif.gif"
+import DailyGif from "/darling/DailyGif.gif"  
 import DailyGif2 from "/darling/dailyGif2.gif"
 import Us1 from "/darling/Us1.jpg"
 import Us2 from "/darling/Us2.jpeg"
@@ -62,13 +62,13 @@ function App() {
           <h2>📌♥ Mensajito para mi princesa ♥📌</h2>
           
           <h4>
-            ♥ Hola serenita ♥, te amo muchote. Gracias por esperar. Te extraaaño
+            ♥ Hola mi amor ♥, te amo mi chiquita, Buenas noches. 
           </h4>
 
           <p>
-            Bueno mi amor, te amo mucho mucho, te extraño demasiado, extraaaaño tus cachetes lindos
-            eres lo mejor que me ha pasado serenita, te amo demás, espero que te guste lo que te dejo hoy
-            te amo mucho. Espero que te sientas mejor mi bebé.
+            Hola princesaa, espero que hayas pasado un buen día, y que te sientas mucho mejor
+            te amo con locura mi bebé, siempre vas a ser mi princesita lindisima, te amo muchisisisimo
+            muamuamua.
           </p>
 
           <div className="proposal">
@@ -80,23 +80,21 @@ function App() {
             </h3>
 
             <p>
-              Pues estuve buscando algunos videos para que mires, aquí hay uno de illojuan y uno
-              de comedia de Les Luthiers, son un grupo de comediantes que hacen comedia musical,
-              generalmente es humor inteligente. El otro es un video de juanillo, espero que te gusten
-              ♥
+              Aquí tienes una rutina de comedia de Nanutria y una de Franco Escamilla para ti princesa. Te amo
+              espero que te guste mucho.
             </p>
 
             <h4>
-              Les Luthiers: Manuel Darío 
+              De que pais es 
             </h4>
-            <a href="https://www.youtube.com/watch?v=9iW2Cbw4Afk&list=RD9iW2Cbw4Afk&start_radio=1">
+            <a href="https://youtu.be/ufIn1TNDFNM?si=opyOsf0rTCjM-lzK">
               Presiona aquí princesa ♥
             </a>
 
             <h4>
-              CHUPITOS CHALLENGE 3 🍋 
+              Aroma a Papa 
             </h4>
-            <a href="https://www.youtube.com/watch?v=us7zI_8qKE8&t=3s">
+            <a href="https://youtu.be/LDMC_CmR5RA?si=C1nPTAp3g9-VuBfw">
               Presiona aquí princesa ♥
             </a>
 
@@ -107,27 +105,27 @@ function App() {
             </h3>
 
             <p>
-              Y pues estuve buscando canciones para tí, y aquí tienes algunas ♥
+              Algunas canciones para tí ♥
             </p>
 
             <h4>
-              Yo sin tí no valgo nada - C4 Trío & Rafael "Pollo" Brito
+              Hasta la raíz - Natalia Lafourcade
             </h4>
-            <a href="https://youtu.be/LaDQ-sdKnuM?si=SxUN6muUn7P8WSO2">
+            <a href="https://youtu.be/iHSnLRrEC10?si=9pv37NlO0dVkdL7S">
               Presiona aquí princesa ♥
             </a>
 
             <h4>
-              Ladrón de tu amor - Gualberto Ibarreto
+              Love me like there's no tomorrow - Freddy Mercury
             </h4>
-            <a href="https://youtu.be/NjIurL4Gqro?si=mO9jVXfz_vwnARBE">
+            <a href="https://youtu.be/4p4S9PfZTE8?si=o_bXPaTtY1hdbDJN">
               Presiona aquí princesa ♥
             </a>
 
             <h4>
-              Don - Miranda!
+              Waiting For Love - Avicii
             </h4>
-            <a href="https://youtu.be/eap0G9ldKc0?si=MY0UoemV7_ya55CA">
+            <a href="https://youtu.be/-ncIVUXZla8?si=TACEECt0TMqwuUYk">
               Presiona aquí princesa ♥
             </a>
 
