@@ -1,16 +1,23 @@
-//import { useState } from 'react';
+import { useState } from 'react';
 import DailyGif from "/darling/dailyGif.gif"  
 import DailyGif2 from "/darling/dailyGif2.gif"
 import Us1 from "/darling/Us1.jpg"
 import Us2 from "/darling/Us2.jpeg"
 import Us3 from "/darling/Us3.jpg"
+import S1 from "/darling/1.jpg"
+import S2 from "/darling/2.jpg"
+import S3 from "/darling/3.jpg"
+import S4 from "/darling/4.png"
+import S5 from "/darling/6.jpg"
+import S6 from "/darling/5.jpg"
+import S7 from "/darling/7.jpg"
 import './App.css'
 
 function App() {
-  //const [ans, setAns] = useState(0);
-  //const [noClicks, setNoClicks] = useState(0);
+  const [ans, setAns] = useState(0);
+  const [noClicks, setNoClicks] = useState(0);
 
- /* function handleResponse(){
+ function handleResponse(){
     switch(ans){
       case(0): return(
       <div className='response'>
@@ -18,20 +25,27 @@ function App() {
       </div>)
 
       case(1): return(
-      <div className='response'>
-        <h3> ¡Siipi, te amo mi amor, Gracias! ♥</h3>
-        <div className='images'>
-          <div className='image-container' data-caption="Mi princesa ♥">
-            <img src={Serenita5} width={180} height={220} alt="Nuestro momento especial" />
-          </div>
-        </div>
-        <h4>Ya no hay vuelta atrás, no puedes deshacerte de mi C:</h4>
-        <div className="hearts">
-          {Array.from({ length: 10 }).map((_, i) => (
+        <div className='response celebration'>
+          <h3> ¡SIIII! ¡TE AMO MI VIDA! 💖</h3>
+          <h4>Ahora oficialmente eres mi novia, mi princesa, mi todo</h4>
+          <div className="celebration-content">
+            <div className="confetti"></div>
+              <div className="promise">
+                <h4>Te prometo:</h4>
+                <ul>
+                  <li>Amarte cada día más</li>
+                  <li>Hacerte feliz siempre</li>
+                  <li>Ser tu mejor amigo</li>
+                  <li>Cuidarte por siempre</li>
+                </ul>
+              </div>
+            </div>
+          <div className="hearts">
+          {Array.from({ length: 20 }).map((_, i) => (
             <div key={i} className="heart" style={{
               animationDelay: `${i * 0.2}s`,
               left: `${Math.random() * 100}%`
-            }}>♥</div>
+            }}>💖</div>
           ))}
         </div>
       </div>)
@@ -44,100 +58,93 @@ function App() {
     }
   }
 
-  */
- {/* const handleNoClick = () => {
+
+ const handleNoClick = () => {
     setNoClicks(noClicks + 1);
     if (noClicks >= 10){setAns(2)};
   }
-*/}
+
   return (
     <>
     <div className='box'>
       <div className='mainText'>
-        <h2>📌♥ Mensajito Diario para mi Princesa ♥📌</h2>
+        <h2>📌♥ Para mi Princesa  ♥📌 <br /> ♥ Dia Final ♥</h2>
       </div>
       <div className='content'>
         <div className='hiText'>
-            
-          <h2>📌♥ Mensajito para mi princesa ♥📌</h2>
-          
-          <h4>
-            ♥ Hola mi bebé ♥, te amo mi nenita, Buenas noches. 
-          </h4>
-
-          <p>
-            Hola bebé de mi corazón, te amo mucho mucho, espero que hayas pasado buen día 
-            y mañana tambíen. Mañana no actualizaré la página, me concentraré en hacer otras cosas
-            para que el miércoles tengas bastante contenido. Te amo princesa, siempre lo haré
-          </p>
-
           <div className="proposal">
             
-            <h2>📌♥ Cositas para tí ♥📌</h2>
-            
-            <h3>
-              📹♥ Videos ♥📹
-            </h3>
-
-            <p>
-              En los videos de hoy te mando un directo de illojuan (no es necesario que lo veas todo).
-              el título habla por si mismo, Juan conoce a una chama (Pup) que es gringa y ella se ha puesto 
-              a estudiar español, Juan y ella hacen una competencia de quien sabe hablar más el idioma del otro.
-              Lo siguiente es un comediante, por así decirlo que usa un títere (El Lagarto Murdock) y hace
-              Humor negro sin censuras (ya verás, es terrible). El otro es un comediante Venezolano y ventrilocuo
-              que hace comedia con sus títeres (Kini, Chipi y Lalo sus más famosos).
-            </p>
-
-            <h4>
-              Mi Primer Día como Profesor de Español ft. Pup 
-            </h4>
-            <a href="https://youtu.be/ufIn1TNDFNM?si=opyOsf0rTCjM-lzK">
-              Presiona aquí princesa ♥
-            </a>
-
-            <h4>
-              Chistes Sin Censura del Lagarto Murdock 
-            </h4>
-            <a href="https://youtu.be/RbDeIvcfbl8?si=p5mQlsDnI-WO9wlW">
-              Presiona aquí princesa ♥
-            </a>
-
-            <h4>
-              Carlos Donoso - Kini y Chipi Completo
-            </h4>
-            <a href="https://youtu.be/K7c_OUwqVm8?si=bLjumlqH3VRPG1Ln">
-              Presiona aquí princesa ♥
-            </a>
-
-
-            <br /> <br />
-
             <h3>
               ♥ Canciones ♥
             </h3>
 
-            <p>
+            <h4>
               Algunas canciones para tí ♥
+            </h4>
+
+            <p>Éstas son mis canciones más personales, son todas tuyas, espero sepas
+              apreciarlas, yo sé que lo harás, te amo mi vida.
             </p>
-
             <h4>
-              Como te extraño mi amor - Café Tacvba
+              Luna - Zoé
             </h4>
-            <a href="https://youtu.be/eYJr5qgNBOg?si=XPVASCQ72-s22oNU">
+            <a href="https://youtu.be/BjqrsnBEvfY?si=DCM2soP30yutu-W4">
               Presiona aquí princesa ♥
             </a>
 
             <h4>
-              Pastillitas del Olvida - Tan Bionica
+              Arrullo de Estrellas - Zoé
             </h4>
-            <a href="https://youtu.be/m_QXMIqGKYU?si=uCsbDuN7b0Dgoj7o">
+            <a href="https://youtu.be/WJmm32hgtLQ?si=jPt1pSlUia5gVLOh">
               Presiona aquí princesa ♥
             </a>
 
             <h4>
-              Tu Carcel - Los Enanitos Verdes
+              Ella - Gilberto Santa Rosa ft. Guaco
             </h4>
-            <a href="https://youtu.be/BQAKKp6ziD0?si=VQdpdNhTPQYovb2R">
+            <a href="https://youtu.be/zFUHxbNvqXg?si=qEKC8oW8bwUCbHMD">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              Tres Regalos - Los Dandys
+            </h4>
+            <a href="https://youtu.be/z2_xZcZ6RdE?si=3nhk9R7TE-Bjboub">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              Anhelante - Gualberto Ibarreto
+            </h4>
+            <a href="https://youtu.be/CNxJb3FGCqc?si=S7xqqnNJPpfelyiZ">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              Francés Limón - Los Enanitos Verdes
+            </h4>
+            <a href="https://youtu.be/GgLbP5WG_50?si=1gsed1NduwTMw620">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              Vivo - Guaco
+            </h4>
+            <a href="https://youtu.be/BSQoW0hcA0M?si=iOmr17I6q9TGAMpR">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              Si usted la viera - Jorge Luís Chacín
+            </h4>
+            <a href="https://youtu.be/rQwFzNi4TtI?si=KrKewUvZcaNhECRO">
+              Presiona aquí princesa ♥
+            </a>
+
+            <h4>
+              Algo más - La Quinta Estación
+            </h4>
+            <a href="https://youtu.be/3MDgVBewf1A?si=8jcX2lvFZJxVAg8E">
               Presiona aquí princesa ♥
             </a>
 
@@ -159,15 +166,51 @@ function App() {
                 <img width={180} height={180} src={Us3} alt="" />
               </div>
           </div>
+          
+        <div className='proposal'>
+          <h2>💖 Razones por las que te amo 💖</h2>
+          <div className="reasons-grid">
+            <div className="reason-card">
+              <h4>✨ Tu Sonrisa ✨</h4>
+              <p>Me encanta ver como ríes de mis pendejadas</p>
+            </div>
+            <div className="reason-card">
+              <h4>🌟 Tu Forma de Ser 🌟</h4>
+              <p>"Altanera, orgullosa y pretenciosa", como la Bikina</p>
+            </div>
+            <div className="reason-card">
+              <h4>💫 Tu Corazón 💫</h4>
+              <p>El más bonito</p>
+            </div>
+            <div className="reason-card">
+              <h4>🎀 Tu Mirada 🎀</h4>
+              <p>En tus ojos encuentro paz</p>
+            </div>
+          </div>
+        </div>
+
+          <div className='proposal'>
+            <h2>📸 Galería de Mi Princesa 📸</h2>
+            <div className="gallery-grid">
+              {[S1, S2, S3, S4, S5, S6, S7].map((src, index) => (
+                <div key={index} className="gallery-item" data-caption={`Foto ${index + 1} de mi bebé`}>
+                  <img src={src} alt={`Mi amor ${index + 1}`} />
+                    <div className="gallery-overlay">
+                      <span>💖</span>
+                    </div>
+                </div>
+              ))}
+            </div>
+          </div>
 
           <br/>
 
-          <h2>📌♥ Fin del contenido ♥📌</h2>
+          <h2>📌♥ (??) Fin del contenido (??) ♥📌</h2>
 
           <h4>
-            Espero que te haya gustado lo que puse para tí, cuídate mucho
+            Nop, ésto aún no llega al final, más bien, acaba de empezar.
           </h4>
-          <h4>♥ Que pases buena noche corazón ♥</h4>
+          <h4>♥ Sigue bajando, preciosa ♥</h4>
           
           <br />
 
@@ -183,16 +226,36 @@ function App() {
 
         </div>
         
-{/*
         <div className='hiText'>
-          <h3>♥ Te amo demasiado Serenita ♥</h3>
-          <h4>No sé si ya te lo dije, pero...</h4>
-        </div>
 
-        <div className='images'>
-          <div className='image-container' data-caption="Mi todo ♥">
-            <img src={Serenita6} width={200} height={200} alt="Mi vida completa" />
-          </div>
+          <h2>📌♥ Mensajito para mi princesa ♥📌</h2>
+          
+          <h4>
+            Hola Serena!, por fin llegó el día, espero que te guste lo poco y lo mucho
+            que tengo para tí hoy. Te amo demasiado mi reina ♥ 
+          </h4>
+
+          <p>
+            Hola reina mía, te amo mucho. Espero la estés pasando muy bien mi amor, cada día que pasa
+            me enamoro demasiadisimo de tí, me tienes totalmente loco por tí, me despierto en las mañanas
+            locamente enamorado y me acuesto a dormir aún más. <br /> <br />
+
+            Sólo quiero que hoy te quede claro que te amo demasiado, que quiero que seas mi princesa toda mi vida,
+            mi bebé malcriada, mi princesa, mi todo, llevo días manteniendo ésta página para tí, investigando, buscando
+            canciones, videos que sé que te gustarán, que te mantengas todo el día sabiendo que aunque no estoy cerca
+            te amo con toda mi alma y que jamás te hará falta ni un poco de cariño conmmigo. <br /> <br />
+
+            Sigo irremediablemente enamorado de tí, incluso más que el día 1, espero que algún día te quede muy claro,
+            espero que hoy te quede mucho más claro de lo que lo tienes ya mismo. <br /> <br />
+
+            Bueno amor, no tengo mucho más que decir, sólo espero que, al igual que yo, quieras regalarme tu vida,
+            tu tiempo, tu cariño, así como yo lo quiero contigo, que seas mi amiga más intima, mi compañera
+            y algún día si me dejas, mi esposa y madre de mis hijos. Te amo Serena, siempre lo haré
+          </p>
+
+
+          <h3>♥ Te amo demasiado Serenita ♥</h3>
+          <h4>Espero te hayan gustado tus flores, entonces...</h4>
         </div>
 
         <div className='proposal'>
@@ -209,7 +272,7 @@ function App() {
           
           {handleResponse()}
         </div>
-*/}
+
       </div>
     </div>
     </>
