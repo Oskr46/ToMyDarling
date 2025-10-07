@@ -1,5 +1,5 @@
 //import { useState } from 'react';
-import DailyGif from "/darling/DailyGif.gif"  
+import DailyGif from "/darling/dailyGif.gif"  
 import DailyGif2 from "/darling/dailyGif2.gif"
 import Us1 from "/darling/Us1.jpg"
 import Us2 from "/darling/Us2.jpeg"
@@ -62,13 +62,13 @@ function App() {
           <h2>📌♥ Mensajito para mi princesa ♥📌</h2>
           
           <h4>
-            ♥ Hola mi amor ♥, te amo mi chiquita, Buenas noches. 
+            ♥ Hola mi bebé ♥, te amo mi nenita, Buenas noches. 
           </h4>
 
           <p>
-            Hola princesaa, espero que hayas pasado un buen día, y que te sientas mucho mejor
-            te amo con locura mi bebé, siempre vas a ser mi princesita lindisima, te amo muchisisisimo
-            muamuamua.
+            Hola bebé de mi corazón, te amo mucho mucho, espero que hayas pasado buen día 
+            y mañana tambíen. Mañana no actualizaré la página, me concentraré en hacer otras cosas
+            para que el miércoles tengas bastante contenido. Te amo princesa, siempre lo haré
           </p>
 
           <div className="proposal">
@@ -80,23 +80,35 @@ function App() {
             </h3>
 
             <p>
-              Aquí tienes una rutina de comedia de Nanutria y una de Franco Escamilla para ti princesa. Te amo
-              espero que te guste mucho.
+              En los videos de hoy te mando un directo de illojuan (no es necesario que lo veas todo).
+              el título habla por si mismo, Juan conoce a una chama (Pup) que es gringa y ella se ha puesto 
+              a estudiar español, Juan y ella hacen una competencia de quien sabe hablar más el idioma del otro.
+              Lo siguiente es un comediante, por así decirlo que usa un títere (El Lagarto Murdock) y hace
+              Humor negro sin censuras (ya verás, es terrible). El otro es un comediante Venezolano y ventrilocuo
+              que hace comedia con sus títeres (Kini, Chipi y Lalo sus más famosos).
             </p>
 
             <h4>
-              De que pais es 
+              Mi Primer Día como Profesor de Español ft. Pup 
             </h4>
             <a href="https://youtu.be/ufIn1TNDFNM?si=opyOsf0rTCjM-lzK">
               Presiona aquí princesa ♥
             </a>
 
             <h4>
-              Aroma a Papa 
+              Chistes Sin Censura del Lagarto Murdock 
             </h4>
-            <a href="https://youtu.be/LDMC_CmR5RA?si=C1nPTAp3g9-VuBfw">
+            <a href="https://youtu.be/RbDeIvcfbl8?si=p5mQlsDnI-WO9wlW">
               Presiona aquí princesa ♥
             </a>
+
+            <h4>
+              Carlos Donoso - Kini y Chipi Completo
+            </h4>
+            <a href="https://youtu.be/K7c_OUwqVm8?si=bLjumlqH3VRPG1Ln">
+              Presiona aquí princesa ♥
+            </a>
+
 
             <br /> <br />
 
@@ -109,23 +121,23 @@ function App() {
             </p>
 
             <h4>
-              Hasta la raíz - Natalia Lafourcade
+              Como te extraño mi amor - Café Tacvba
             </h4>
-            <a href="https://youtu.be/iHSnLRrEC10?si=9pv37NlO0dVkdL7S">
+            <a href="https://youtu.be/eYJr5qgNBOg?si=XPVASCQ72-s22oNU">
               Presiona aquí princesa ♥
             </a>
 
             <h4>
-              Love me like there's no tomorrow - Freddy Mercury
+              Pastillitas del Olvida - Tan Bionica
             </h4>
-            <a href="https://youtu.be/4p4S9PfZTE8?si=o_bXPaTtY1hdbDJN">
+            <a href="https://youtu.be/m_QXMIqGKYU?si=uCsbDuN7b0Dgoj7o">
               Presiona aquí princesa ♥
             </a>
 
             <h4>
-              Waiting For Love - Avicii
+              Tu Carcel - Los Enanitos Verdes
             </h4>
-            <a href="https://youtu.be/-ncIVUXZla8?si=TACEECt0TMqwuUYk">
+            <a href="https://youtu.be/BQAKKp6ziD0?si=VQdpdNhTPQYovb2R">
               Presiona aquí princesa ♥
             </a>
 
@@ -153,7 +165,7 @@ function App() {
           <h2>📌♥ Fin del contenido ♥📌</h2>
 
           <h4>
-            Espero que te haya gustado todo mi bebé, cuídate mucho
+            Espero que te haya gustado lo que puse para tí, cuídate mucho
           </h4>
           <h4>♥ Que pases buena noche corazón ♥</h4>
           
